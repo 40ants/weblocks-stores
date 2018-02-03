@@ -1,6 +1,11 @@
 
 (defpackage #:weblocks-store-test
-  (:use :cl :weblocks :lift :f-underscore :weblocks-stores :weblocks-util :metabang.utilities)
+  (:use #:cl
+        #:weblocks
+        #:lift
+        #:f-underscore
+        #:weblocks-stores
+        #:metabang.utilities)
   (:export :do-all-tests))
 
 (in-package :weblocks-store-test)

@@ -12,6 +12,6 @@
   :version "0.1.8"
   :licence "LLGPL"
   :description "A weblocks backend for clsql."
-  :depends-on (:weblocks-util :closer-mop :metatilities :clsql :clsql-fluid :weblocks-stores)
+  :depends-on (:closer-mop :metatilities :clsql :clsql-fluid :weblocks-stores)
   :components ((:file "clsql")))
 

@@ -1,7 +1,8 @@
 
 (defpackage #:weblocks-memory
   (:use :cl :metabang.utilities :weblocks-stores)
-  (:import-from :weblocks-util #:slot-value-by-path)
+  (:import-from #:weblocks/utils/clos
+                #:slot-value-by-path)
   (:export :make-scratch-store :objects-from-scratch-store
           :order-objects-in-memory :strictly-less-p :equivalentp
           :range-objects-in-memory 
